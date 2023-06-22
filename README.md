@@ -1,13 +1,5 @@
-# Hyperlinked Title
+# React Notebook
 
-![Screenshot of project](https://raw.githubusercontent.com/Zacharyjpeter/cc-projectname)
+A collection of react learnings. Projects are hosted elsewhere.
 
-Insert short description here
-
-## Challenges
-Immediately after finishing the project, note what frustrated you most.
-
-## Takeaways
-Explain what you learned from this project.
-
-Based on [Codecademy's JavaScript course](https://www.codecademy.com/learn/introduction-to-javascript).
+Based on [Codecademy's JavaScript course](https://www.codecademy.com/learn/react-101).
