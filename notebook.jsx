@@ -30,3 +30,9 @@ const myList = (
   </ul>
 );
 root.render(myList);
+
+//jsx reads text like html
+root.render(<h1>2 + 3</h1>);
+
+//curly braces are needed to perform functions
+root.render(<h1>{2 + 3}</h1>);
