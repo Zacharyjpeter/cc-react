@@ -20,3 +20,13 @@ const container = document.getElementById("container");
 
 const root = createRoot(container);
 root.render(<h1>Hello world</h1>);
+
+//root.render seems to be the equivalent of console.log
+const myList = (
+  <ul>
+    <li>Learn react</li>
+    <li>Build something useful</li>
+    <li>Post online</li>
+  </ul>
+);
+root.render(myList);
