@@ -34,5 +34,10 @@ root.render(myList);
 //jsx reads text like html
 root.render(<h1>2 + 3</h1>);
 
-//curly braces are needed to perform functions
+//curly braces indicate a javascript expression instead of jsx
+//this is called injecting javascript
 root.render(<h1>{2 + 3}</h1>);
+
+const theBestString = "This text was accessed through a javascript variable";
+
+root.render(<h1>{theBestString}</h1>);
