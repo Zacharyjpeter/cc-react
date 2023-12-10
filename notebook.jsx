@@ -41,3 +41,9 @@ root.render(<h1>{2 + 3}</h1>);
 const theBestString = "This text was accessed through a javascript variable";
 
 root.render(<h1>{theBestString}</h1>);
+
+//another example of injected js to produce visual content
+const goose =
+  "https://content.codecademy.com/courses/React/react_photo-goose.jpg";
+const gooseImg = <img src={goose} />;
+root.render(gooseImg);
